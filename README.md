@@ -4,6 +4,13 @@
 This repository introduces how to perform backend development.
 
 ### Java
+#### Basic
+- Basic type
+- String
+- Flow control(if, else, while, for, switch, break)
+- IO stream
+- JVM/GC
+
 #### Framework
 - Spring
 - Spring MVC
@@ -14,10 +21,14 @@ This repository introduces how to perform backend development.
 ### OS
 - Linux
 
-### Network
+### Network protocal
 - HTTP
 - TCP
 
-### Data structure
+### Transfer
+- RPC
+- Rest
+
+### Transfer data structure
 - JSON
 - XML
