@@ -15,10 +15,10 @@ This repository introduces how to perform backend development.
 #### Framework
 - Spring [官网](https://spring.io/)
 - Spring MVC
-- Spring Boot [官网](https://projects.spring.io/spring-boot/)
+- Spring Boot [官网](https://projects.spring.io/spring-boot/) [我的笔记和示例代码](https://github.com/luffyke/springboot-demo)
 
 #### ORM
-- Mybatis, [官网](http://www.mybatis.org/mybatis-3/), [Mybatis products](http://blog.mybatis.org/p/products.html)
+- Mybatis, [官网](http://www.mybatis.org/mybatis-3/), [Mybatis产品](http://blog.mybatis.org/p/products.html)
 
 ### OS
 - Linux
@@ -29,7 +29,7 @@ This repository introduces how to perform backend development.
 - TCP
 
 ### Transfer method
-- RPC
+- RPC(远程过程调用)
 - Rest
 
 ### Transfer data structure
