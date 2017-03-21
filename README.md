@@ -3,6 +3,11 @@
 
 This repository introduces how to perform backend development.
 
+服务端开发，也有的叫后端开发，主要是接受客户端（Android, iOS等）或者前端请求（根据约定协议可能是HTTP请求或者TCP请求），或进行业务逻辑计算，或操作数据库（mysql, mongodb, redis等），或调用其他接口，然后返回消息（格式根据协议可能是JSON，XML或者序列化数据流等）给客户端或者前端。
+
+### 语言
+服务端的语言比较多，用的比较多的有C/C++，Java，PHP，Python，Ruby，Go，.NET，Javascript(NodeJS)等，每个语音各有自己的优点和缺点，本文主要介绍Java在服务端的技术栈。
+
 ### Java
 #### Basic
 - Basic type(byte, boolean, char, int, short, long, float, double)
@@ -42,3 +47,8 @@ This repository introduces how to perform backend development.
 ### Server
 - Nginx
 - Tomcat
+
+### 存储
+- Mysql
+- MongoDB
+- Redis
