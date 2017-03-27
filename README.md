@@ -16,6 +16,7 @@ This repository introduces how to perform backend development.
 - IO stream
 - Collection(Map, List, Set)
 - JVM/GC
+- Multi-thread/Lock
 
 #### Framework
 - Spring [官网](https://spring.io/)
@@ -26,7 +27,7 @@ This repository introduces how to perform backend development.
 - Mybatis, [官网](http://www.mybatis.org/mybatis-3/), [Mybatis产品](http://blog.mybatis.org/p/products.html)
 
 ### OS
-- Linux
+- Linux [我的笔记](https://github.com/luffyke/notes/tree/master/linux)
 
 ### Network protocal
 - 互联网协议入门 [01](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html) [02](http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html)
@@ -45,10 +46,10 @@ This repository introduces how to perform backend development.
 - Git
 
 ### Server
-- Nginx
+- Nginx [我的笔记](https://github.com/luffyke/notes/tree/master/nginx)
 - Tomcat
 
 ### 存储
-- Mysql
-- MongoDB
+- Mysql [我的笔记](https://github.com/luffyke/notes/tree/master/mysql)
+- MongoDB [我的笔记](https://github.com/luffyke/notes/tree/master/mongo)
 - Redis
