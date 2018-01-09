@@ -1,55 +1,23 @@
 ## BE
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-This repository introduces how to perform backend development.
+BE is short for BackEnd.
 
-服务端开发，也有的叫后端开发，主要是接受客户端（Android, iOS等）或者前端请求（根据约定协议可能是HTTP请求或者TCP请求），或进行业务逻辑计算，或操作数据库（mysql, mongodb, redis等），或调用其他接口，然后返回消息（格式根据协议可能是JSON，XML或者序列化数据流等）给客户端或者前端。
+### 概念
+服务端开发，也有的叫后端开发，程序员通过**编程语言**开发程序（逻辑运算，数据库操作等），部署在服务器提供服务给客户端/前端/其他服务端。
+
+- 编程语言，服务端的语言比较多，用的比较多的有C/C++，Java，PHP，Python，Ruby，Go，.NET，NodeJS等，每个语音各有自己的优点和缺点，没有完美的语言，只有适合场景的语言。
+- 服务器，其实就是超级计算机，现在比较流行是云服务器，例如阿里云，腾讯云等。
+- HTTP服务器，主要是Nginx [我的笔记]，其他还有Apache。(https://github.com/luffyke/notes/tree/master/nginx)
+- 操作系统，主要是Linux [我的笔记](https://github.com/luffyke/notes/tree/master/linux)，还有一些是Windows Server。
+- 数据库，数据存储的地方，主要有关系型数据库（Oracle/MySQL [我的笔记](https://github.com/luffyke/notes/tree/master/mysql)/SQL Server等），NoSQL（Redis/MongoDB [我的笔记](https://github.com/luffyke/notes/tree/master/mongo)等），以及其他。
+- 网络协议，主要是TCP/IP，HTTP协议等。互联网协议入门 [01](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html) [02](http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html)
+- 数据格式，主要是[JSON](http://www.json.org/json-zh.html)，XML，或者二进制流等。
 
 ### 语言
-服务端的语言比较多，用的比较多的有C/C++，Java，PHP，Python，Ruby，Go，.NET，Javascript(NodeJS)等，每个语音各有自己的优点和缺点，本文主要介绍Java在服务端的技术栈。
+- [Java](./java.md)
 
-### Java
-#### Basic
-- Basic type(byte, boolean, char, int, short, long, float, double)
-- String
-- Flow control(if, else, while, for, switch, break)
-- IO stream
-- Collection(Map, List, Set)
-- JVM/GC
-- Multi-thread/Lock
-
-#### Framework
-- Spring [官网](https://spring.io/)
-- Spring MVC
-- Spring Boot [官网](https://projects.spring.io/spring-boot/) [我的笔记和示例代码](https://github.com/luffyke/springboot-demo)
-
-#### ORM
-- Mybatis, [官网](http://www.mybatis.org/mybatis-3/), [Mybatis产品](http://blog.mybatis.org/p/products.html)
-
-### OS
-- Linux [我的笔记](https://github.com/luffyke/notes/tree/master/linux)
-
-### Network protocal
-- 互联网协议入门 [01](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html) [02](http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html)
-- HTTP
-- TCP
-
-### Transfer method
-- RPC(远程过程调用)
-- Rest
-
-### Transfer data structure
-- [JSON](http://www.json.org/json-zh.html)
-- XML
-
-### Source control
-- Git
-
-### Server
-- Nginx [我的笔记](https://github.com/luffyke/notes/tree/master/nginx)
-- Tomcat
-
-### 存储
-- Mysql [我的笔记](https://github.com/luffyke/notes/tree/master/mysql)
-- MongoDB [我的笔记](https://github.com/luffyke/notes/tree/master/mongo)
-- Redis
+### 术语
+- 服务端：也叫后端，主要是提供服务，服务端开发的程序（服务）部署在服务器对操作系统来说就是个进程，对客户端/前端来说就是一个URL。
+- 客户端：Android/iOS
+- 前端：H5/Web页面
