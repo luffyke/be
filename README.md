@@ -8,7 +8,7 @@ BE is short for BackEnd.
 
 - 编程语言，服务端的语言比较多，用的比较多的有C/C++，Java，PHP，Python，Ruby，Go，.NET，NodeJS等，每个语音各有自己的优点和缺点，没有完美的语言，只有适合场景的语言。
 - 服务器，其实就是超级计算机，现在比较流行是云服务器，例如阿里云，腾讯云等。
-- HTTP服务器，主要是Nginx [我的笔记]，其他还有Apache。(https://github.com/luffyke/notes/tree/master/nginx)
+- HTTP服务器，主要是Nginx [我的笔记](https://github.com/luffyke/notes/tree/master/nginx)，其他还有Apache。
 - 操作系统，主要是Linux [我的笔记](https://github.com/luffyke/notes/tree/master/linux)，还有一些是Windows Server。
 - 数据库，数据存储的地方，主要有关系型数据库（Oracle/MySQL [我的笔记](https://github.com/luffyke/notes/tree/master/mysql)/SQL Server等），NoSQL（Redis/MongoDB [我的笔记](https://github.com/luffyke/notes/tree/master/mongo)等），以及其他。
 - 网络协议，主要是TCP/IP，HTTP协议等。互联网协议入门 [01](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html) [02](http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html)
